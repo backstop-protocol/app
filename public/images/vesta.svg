@@ -1,0 +1,66 @@
+<svg filter="invert(1)" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xml:space="preserve" version="1.1" viewBox="0 0 100 100">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="PencilOnly" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="OutlineMode" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="doHistoryDisabled" value="0"/>
+<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
+<vectornator:setting key="Units" value="Points"/>
+</metadata>
+<defs>
+<path d="M63.2964+26.3652L79.4012+26.3652L79.4012+58.7057L63.2964+58.7057L63.2964+26.3652Z" id="Mask"/>
+<path d="M17.1935+26.3652L64.4023+26.3652L64.4023+90.1928L17.1935+90.1928L17.1935+26.3652Z" id="Mask_2"/>
+</defs>
+<g id="Untitled" vectornator:layerName="Untitled">
+<path d="M48.7294+0C21.8181+0+0+22.387+0+50C0+77.6152+21.8181+100+48.7294+100C75.6429+100+97.4588+77.6152+97.4588+50C97.4588+22.387+75.6429+0+48.7294+0Z" opacity="1" fill="#f7f8ef"/>
+<path d="M48.5587+9.82491C27.0301+9.82491+9.57524+27.7349+9.57524+49.8249C9.57524+71.9171+27.0301+89.8249+48.5587+89.8249C70.0895+89.8249+87.5422+71.9171+87.5422+49.8249C87.5422+27.7349+70.0895+9.82491+48.5587+9.82491Z" opacity="1" fill="#021123"/>
+<path d="M41.7353+58.3333L41.4545+58.1893L56.9633+26.3652L57.3132+26.3652L41.7353+58.3333" opacity="1" fill="#f7f8ef"/>
+<path d="M46.159+58.3245L45.8804+58.1804L61.3826+26.3652L61.7325+26.3652L46.159+58.3245" opacity="1" fill="#f7f8ef"/>
+<path d="M43.2106+58.3311L42.9298+58.1871L58.4364+26.3652L58.7863+26.3652L43.2106+58.3311" opacity="1" fill="#f7f8ef"/>
+<path d="M44.6859+58.3267L44.4051+58.1826L59.9095+26.3652L60.2594+26.3652L44.6859+58.3267" opacity="1" fill="#f7f8ef"/>
+<path d="M40.2622+58.3378L39.9814+58.1937L55.4901+26.3652L55.8422+26.3652L40.2622+58.3378" opacity="1" fill="#f7f8ef"/>
+<g opacity="1" vectornator:mask="#Mask">
+<clipPath id="ClipPath">
+<use xlink:href="#Mask" fill="none" overflow="visible"/>
+</clipPath>
+<g clip-path="url(#ClipPath)">
+<path d="M79.0556+26.3652L79.4077+26.3652L63.8536+58.2824L63.575+58.1383L79.0556+26.3652" opacity="1" fill="#f7f8ef"/>
+</g>
+</g>
+<path d="M34.3633+58.3511L34.0825+58.207L49.5977+26.3652L49.9498+26.3652L34.3633+58.3511" opacity="1" fill="#f7f8ef"/>
+<path d="M37.3117+58.3444L37.033+58.2004L52.5439+26.3652L52.896+26.3652L37.3117+58.3444" opacity="1" fill="#f7f8ef"/>
+<path d="M35.8386+58.3466L35.5578+58.2048L51.0708+26.3652L51.4229+26.3652L35.8386+58.3466" opacity="1" fill="#f7f8ef"/>
+<path d="M38.7869+58.34L38.5061+58.1981L54.017+26.3652L54.3691+26.3652L38.7869+58.34" opacity="1" fill="#f7f8ef"/>
+<path d="M55.0063+58.3023L54.7277+58.1582L70.2191+26.3652L70.569+26.3652L55.0063+58.3023" opacity="1" fill="#f7f8ef"/>
+<path d="M56.4816+58.3001L56.2008+58.156L71.6922+26.3652L72.0422+26.3652L56.4816+58.3001" opacity="1" fill="#f7f8ef"/>
+<path d="M57.9569+58.2957L57.6761+58.1516L73.1654+26.3652L73.5153+26.3652L57.9569+58.2957" opacity="1" fill="#f7f8ef"/>
+<path d="M47.6343+58.32L47.3535+58.176L62.8557+26.3652L63.2056+26.3652L47.6343+58.32" opacity="1" fill="#f7f8ef"/>
+<path d="M62.3805+58.2868L62.0997+58.1427L77.5847+26.3652L77.9346+26.3652L62.3805+58.2868" opacity="1" fill="#f7f8ef"/>
+<path d="M60.9052+58.289L60.6244+58.1449L76.1116+26.3652L76.4615+26.3652L60.9052+58.289" opacity="1" fill="#f7f8ef"/>
+<path d="M59.43+58.2934L59.1492+58.1494L74.6385+26.3652L74.9884+26.3652L59.43+58.2934" opacity="1" fill="#f7f8ef"/>
+<path d="M50.5827+58.3134L50.304+58.1693L65.7998+26.3652L66.1519+26.3652L50.5827+58.3134" opacity="1" fill="#f7f8ef"/>
+<path d="M49.1095+58.3178L48.8287+58.1738L64.3267+26.3652L64.6787+26.3652L49.1095+58.3178" opacity="1" fill="#f7f8ef"/>
+<path d="M53.5332+58.3067L53.2524+58.1627L68.746+26.3652L69.0959+26.3652L53.5332+58.3067" opacity="1" fill="#f7f8ef"/>
+<path d="M52.0579+58.309L51.7771+58.1671L67.2729+26.3652L67.625+26.3652L52.0579+58.309" opacity="1" fill="#f7f8ef"/>
+<g opacity="1" vectornator:mask="#Mask_2">
+<clipPath id="ClipPath_2">
+<use xlink:href="#Mask_2" fill="none" overflow="visible"/>
+</clipPath>
+<g clip-path="url(#ClipPath_2)">
+<path d="M48.3017+90.1995L17.1957+26.3652L48.3017+26.3652L63.8536+58.2824L48.3017+90.1995" opacity="1" fill="#f7f8ef"/>
+</g>
+</g>
+
+<g opacity="1"/>
+</g>
+</svg>

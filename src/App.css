@@ -1,0 +1,95 @@
+@import '../node_modules/@picocss/pico/css/pico.css';
+
+/* Pink Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #25c068;
+  --primary-hover: #1d9a53;
+  --primary-focus: rgba(37, 192, 104, 0.125);
+  --primary-inverse: #FFF;
+}
+
+/* Pink Dark scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --primary: #25c068;
+    --primary-hover: #1d9a53;
+    --primary-focus: rgba(37, 192, 104, 0.125);
+    --primary-inverse: #FFF;
+  }
+}
+
+/* Pink Dark scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --primary: #25c068;
+  --primary-hover: #1d9a53;
+  --primary-focus: rgba(37, 192, 104, 0.125);
+  --primary-inverse: #FFF;
+}
+
+/* Pink (Common styles) */
+:root {
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}
+
+main {
+  min-height: 80vh;
+}
+
+
+.bamm-card {
+  width: calc(100%);
+  margin: 0;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .bamm-card {
+    width: calc(50% - (var(--spacing) / 2));
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .bamm-card {
+    width: calc(33% - (var(--spacing) / 2));
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .bamm-card {
+    width: calc(33% - (var(--spacing) / 2));
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .bamm-card {
+    width: calc(33% - (var(--spacing) / 2));
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  .bamm-card {
+    width: calc(33% - (var(--spacing) / 2));
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.blur-onhover{
+  transition: all 0.3s ease-in-out;
+}
+.blur-onhover:hover{
+  opacity: 0.7;
+}
