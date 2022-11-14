@@ -5,13 +5,13 @@ const bammList = [
   {
     name: 'Liquity',
     description: '',
-    url: 'https://app.bprotocol.org/liquity-app-v2/',
+    url: '/liquity-app-v2/',
     logo: "/images/liquity.svg"
   },
   {
     name: 'Vesta',
     description: '',
-    url: 'https://app.bprotocol.org/vesta-app/',
+    url: '/vesta-app/',
     logo: "/images/vesta.svg"
   },
   {
