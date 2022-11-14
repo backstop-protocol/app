@@ -50,7 +50,7 @@ const BammCard = props => {
 const Bamms = props => {
   return <div>
     <div style={{padding: 'var(--spacing)'}}>
-      <small>B.Protocol Automatic Market Makers</small>
+      <small>Supply backstop liquidity to</small>
     </div>
     <div style={{
         display: 'flex', 
