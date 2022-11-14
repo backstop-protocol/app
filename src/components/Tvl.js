@@ -30,7 +30,7 @@ const Tvl = props => {
       <div style={{display: 'flex', justifyContent: 'space-between', gap: 'calc(var(--spacing) * 2)'}}>
         {Object.entries(data.currentChainTvls).map(([key, value])=> {
           return <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-            <b>{key}</b> <div><WF num={value}/></div>
+            <h4 style={{margin: 0}}>{key}</h4> <div><WF num={value}/></div>
           </div>
         })}
       </div>

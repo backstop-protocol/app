@@ -4,7 +4,7 @@ const Nav = () => {
   return <div>
     <nav className="container">
       <ul style={{flexGrow: '1'}}>
-        <img style={{height: '35px'}} src="/images/b-protocol-small-logo.svg"></img>
+      <a href="/"><img style={{height: '35px'}} src="/images/b-protocol-small-logo.svg"></img></a>
       </ul>
       <ul>
         <li><a href="https://dashboard.bprotocol.org/">Dashboard</a></li>
