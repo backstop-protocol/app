@@ -18,19 +18,16 @@ const Tvl = props => {
       dataSet[date.toString()][chain] = totalLiquidityUSD
     })
   })
-  return <div style={{
-    display: 'flex', gap: 'calc(var(--spacing) * 2)',
-  }}>
-    <div style={{minWidth: '150px'}}>
-      <small>Total Value Locked</small>
-      <h3><WF num={TVL}/></h3>
-    </div>
-    <div style={{width: '100%', maxWidth: '600px'}}>
-      <small></small>
-      <div className="grid">
+  return <div>
+    <div style={{width: '100%', textAlign: 'center'}}>
+        <div className="grid">
+          <div style={{minWidth: '150px', minHeight: '60px'}}>
+          <small>Total Value Locked</small>
+          <h3 style={{margin: 0}}><WF num={TVL}/></h3>
+        </div>
         {Object.entries(data.currentChainTvls).map(([key, value])=> {
-          return <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 'var(--spacing'}}>
-            <h6 style={{margin: 0}}>{key}</h6> <div><WF num={value}/></div>
+          return <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minWidth: '130px', minHeight: '60px'}}>
+            <h6 style={{margin: 0, }}>{key}</h6> <div><WF num={value}/></div>
           </div>
         })}
       </div>
