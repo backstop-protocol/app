@@ -46,7 +46,7 @@ const BammCard = props => {
       {props.text && <div style={{height: '70px', marginBottom: 'var(--spacing)'}}>{props.text}</div>}
       {props.logo&& <img style={{height: '70px', marginBottom: 'var(--spacing)'}} src={props.logo}/>}
       <h3 style={{marginBottom: 0}}>{props.name}</h3>
-      <p style={{margin: 0}}>{props.description}</p>
+      <p style={{margin: 0}}><a>{props.description}</a></p>
       {externalLink && <a><small>(External site)</small></a>}
     </div>
   </article>
