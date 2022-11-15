@@ -20,13 +20,14 @@ const Tvl = props => {
   })
   return <div>
     <div style={{width: '100%', textAlign: 'center'}}>
+
         <div className="grid">
-          <div style={{minWidth: '150px', minHeight: '60px'}}>
-          <small>Total Value Locked</small>
+          <div style={{minWidth: '150px', minHeight: '100px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
+          <h3 style={{margin: 0, }}>TVL</h3>
           <h3 style={{margin: 0}}><WF num={TVL}/></h3>
         </div>
         {Object.entries(data.currentChainTvls).map(([key, value])=> {
-          return <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', minWidth: '130px', minHeight: '60px'}}>
+          return <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minWidth: '130px', minHeight: '60px'}}>
             <h6 style={{margin: 0, }}>{key}</h6> <div><WF num={value}/></div>
           </div>
         })}

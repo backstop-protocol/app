@@ -90,6 +90,8 @@ main {
 .blur-onhover{
   transition: all 0.3s ease-in-out;
 }
-.blur-onhover:hover{
-  opacity: 0.7;
+article.bamm-card.clickable.blur-onhover:hover{
+  box-shadow: 0px 0px 40px 1px rgba(37,192,104,0.75);
+  -webkit-box-shadow: 0px 0px 40px 1px rgba(37,192,104,0.75);
+  -moz-box-shadow: 0px 0px 40px 1px rgba(37,192,104,0.75);
 }
