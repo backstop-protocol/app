@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "./generate-static.sh && react-scripts build",
+    "build": "react-scripts build && ./generate-static.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
