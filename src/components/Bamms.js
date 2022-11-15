@@ -27,30 +27,33 @@ const bammList = [
     logo: "/images/hundred-logo.svg"
   },
   {
-    name: 'Legacy App',
-    description: '',
+    text: "Want to backstop your platform?",
+    name: 'Get in touch',
+    description: 'DMs are open',
     url: 'https://app.bprotocol.org/app',
-    logo: "/images/b-icon.svg"
+    logo: ""
   },
 ]
 
 const BammCard = props => {
+  const externalLink = props.url.indexOf('http') > -1
   return <article 
     onClick={() => window.open(props.url, '_blank').focus()}
     className={`bamm-card ${props.comingSoon ? '' : 'clickable blur-onhover'}`}>
     <div style={{opacity: props.comingSoon ? 0.4 : 1, textAlign: 'center'}}>  
-      <img style={{height: '70px', marginBottom: 'var(--spacing)'}} src={props.logo}/>    
+      <div>{props.text}</div>
+      {props.logo&& <img style={{height: '70px', marginBottom: 'var(--spacing)'}} src={props.logo}/>}
       <h3 style={{marginBottom: 0}}>{props.name}</h3>
-      <p style={{margin: 'var(--spacing) 0'}}>{props.description}</p>
+      <p style={{margin: 0}}>{props.description}</p>
+      {externalLink && <a><small>(External site)</small></a>}
     </div>
-  {props.comingSoon && <kbd style={{marginTop: '-80px'}}>coming soon</kbd>}
   </article>
 }
 
 const Bamms = props => {
   return <div>
     <div style={{padding: 'var(--spacing)'}}>
-      <small>Supply backstop liquidity to</small>
+      <small>Select the platform to supply the quality to its backstop</small>
     </div>
     <div style={{
         display: 'flex', 
@@ -59,6 +62,9 @@ const Bamms = props => {
         marginBottom: 'calc(var(--spacing) * 2)'
       }}>
         {bammList.map(d => <BammCard key={d} {...d}/>)}
+    </div>
+    <div style={{padding: 'var(--spacing)'}}>
+      <small>For the legacy app <a href="https://legacy.bprotocol.org"> click here </a></small>
     </div>
   </div>
 }
